@@ -5,7 +5,7 @@
         Console.WriteLine("Calculadora");
         Console.Write($"Digite um valor: ");
         float n1 = float.Parse(Console.ReadLine());
-        Console.WriteLine("Agora digite +(soma), -(subtração), /(divisão) ou *(multiplicação) para continuarmos: ");
+        Console.Write("Agora digite +(soma), -(subtração), /(divisão) ou *(multiplicação) para continuarmos: ");
         string op = Console.ReadLine();
         if (op == "+")
         {
