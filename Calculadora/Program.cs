@@ -35,7 +35,7 @@
             double r = n1 * n2;
             Console.WriteLine($"A multiplicação entre os valores {n1} e {n2} é igual a: {r}");
         }
-        Console.WriteLine("Deseja repetir o programa?(Responda com s(sim) ou n(não)): ");
+        Console.Write("Deseja repetir o programa?(Responda com s(sim) ou n(não)): ");
         string Sn = Console.ReadLine();
         if (Sn == "s") 
         {
